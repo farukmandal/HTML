@@ -1,0 +1,525 @@
+
+/*Common and reset code Start hare */
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+    
+}
+body{
+    font-family: montserrat;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 1138px;
+    margin: 0px auto;
+}
+
+.row{
+    display: flex;
+
+}
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+
+hr{
+    font-size: 1.3rem;
+    margin: 10px auto;
+}
+#div__clear{
+    clear: both;
+    margin: 20px auto;
+}
+/*Common and reset code Ends hare */
+
+
+/*Header css Start Hare*/
+.header{
+    padding: 5px 5px;
+    background-color:pink ;
+}
+.logo img{
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+}
+
+.top__navbar__menu a{
+    margin: 8px 2px;
+    padding: 8px 18px;
+    align-items: center;
+    text-align: center;
+    background-color: tomato;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    justify-content: center;
+    text-transform: uppercase;
+}
+.top__navbar__menu a:hover{
+    background-color: #fff;
+    color: tomato;
+}
+.signing-btn a{
+    background-color: white;
+    color: rgb(50, 4, 255);
+    padding: 10px 20px;
+    margin: 10px 10px;
+    text-transform: uppercase;
+}
+.signing-btn a:hover{
+    background-color: yellowgreen;
+    color: blueviolet;
+}
+
+
+/*Header css Ends Hare*/
+/*Banner css Start Hare*/
+.banner{
+    background: url(images/bg3.jpg) ;
+    width: 100%;
+    height: 60vh;
+    position:;
+}
+.banner:hover{
+    opacity: 0.8;
+    
+}
+.banner .banner__text{
+    color: #fff;
+    font-size: 18px;
+    margin: 20px 30px;
+    padding: 25px 50px;
+}
+.banner__text h2{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2.5rem;
+    transition: 1s all ease-in-out;
+}
+.banner__text h2:hover{
+    color: aqua;
+    margin-left: 100px;
+    transition: 1s all ease-in-out;
+}
+.banner__text span{
+    font-size: 15px;
+    text-transform: capitalize;
+    margin-left: 140px;
+    padding: 10px 20px;
+}
+
+/*Banner css Ends Hare*/
+/*Card css Start Hare*/
+.work h3{
+    font-size: 2rem;
+    color: aqua;
+    margin: 20px auto;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 1s all;
+}
+.work .work__heading:hover{
+    color: pink;
+    transition: 1s all;
+}
+.work__card{
+    border: 1px solid black;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: aqua;
+    color:#fff;
+    min-width: 100%;
+    padding: 10px 20px;
+    margin: 2px 10px;
+    transition: 0.6s all;
+}
+.work__card .work__card--title h3{
+    color:yellow;
+    text-align: center;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding: 20px 5px;
+}
+.work__card .work__card--img img{
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    transition: 1.3s all ease-in-out ;
+   
+}
+.work__card .work__card--img img:hover{
+    box-sizing: border-box;
+    overflow: hidden;
+    transition: 1.3s all ease-in-out;
+    transform: scale(1.1);
+    overflow: hidden;
+    padding: 10px 5px;
+}
+.work__card .work__card--body span{
+    font-size: 1.2rem;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 10px 2px;
+}
+.work__card .work__card--body p{
+    padding: 10px 2px;
+}
+.work__card:hover{
+    color: blue;
+    background-color: black;
+    transition: 0.6s all;
+    border: 1px solid aqua;
+}
+
+/*Card css Ends Hare*/
+/*Client css Start Hare*/
+.client{
+   
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+.client .client__h3{
+    text-align: center;
+    color: aqua;
+    font-size: 2rem;
+    margin: 25px 0px;
+    text-transform: uppercase;
+    transition: 1s all;
+}
+.client .client__h3:hover{
+    transition: 1s all;
+    color:pink;
+}
+.client__card{
+    box-sizing: border-box;
+    background-color: aqua;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 10px auto;
+    transition: 0.6s all;
+    border-radius: 50%;
+    margin: 0px auto;
+    align-items: center;
+    justify-content: center;
+}
+.client__card:hover{
+    background-color: blue;
+    color: #fff;
+    transition: 0.6s all;
+}
+.client__card .client__card--head h4{
+    text-align: center;
+}
+.client__card .client__card--body p{
+    text-align: center;
+}
+.client__card .client__card--head img{
+    display: block;
+    margin: 0px auto;
+    max-width: 50px;
+    max-height: 50px;
+    
+}
+/*Client css Ends Hare*/
+
+/*Contact me css Ends Hare*/
+.contact{
+    
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+.contact  h3{
+    text-align: center;
+    font-size: 2rem;
+    color: aqua;
+    text-transform: uppercase;
+    margin: 50px auto;
+    transition: 1s all;
+}
+.contact h3:hover{
+    color: pink;
+   
+    transition: 1s all;
+    
+}
+.contact .contact__me{
+    text-align: center;
+    margin: 20px auto;
+    padding: 30px 40px;
+}
+.contact .contact__me .email__input{
+    text-align: left;
+    border: none;
+    border-bottom: 1px solid pink;
+    padding:10px 20px;
+    margin: 10px 0px;
+    width: 100%;
+}
+.contact .contact__me .contact__message{
+    text-align: left;
+    margin: 10px 0px;
+    padding:10px 20px;
+    width: 100%;
+    border:none;
+    border-bottom: 1px solid pink;
+    
+}
+
+
+.contact .contact__me .contact__btn{
+    color: aqua;
+    background-color:pink;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    width: 100%;
+    padding: 15px 10px;
+    text-align: center;
+    transition: 0.3s all;
+}
+.contact .contact__me .contact__btn:hover{
+    background-color: aqua;
+    color: pink;
+    transition: 0.3s all;
+}
+.contact .contact__img img{
+    width: 90%;
+    height: 60vh;
+    padding: 10px 20px;
+}
+/*Contact me css Ends Hare*/
+/*Footer css Start Hare*/
+.footer{
+    background-color: #000;
+    color:#fff;
+    width: 100%;
+    text-align: center;
+}
+.footer .footer__abouts h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 20px 10px;
+}
+.footer .footer__abouts h3:hover{
+    text-decoration: underline;
+    font-size: 2rem;
+    color: aqua;
+}
+.footer .footer__abouts p{
+    text-transform: capitalize;
+    text-align: left;
+    padding: 10px;
+}
+.footer .footer__services h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 20px 10px;
+}
+.footer .footer__services h3:hover{
+    text-decoration: underline;
+    font-size: 2rem;
+    color: aqua;
+
+}
+.footer .footer__services ul li{
+    text-align: left;
+    padding: 6px 20px;
+   
+}
+.footer .footer__services ul li a{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    margin-left:10px;
+    transition: 1s all ease-in-out;
+}
+.footer .footer__services ul li a:hover{
+    color: aqua;
+    transition: 1s all ease-in-out;
+    margin-left: 100px;
+}
+.footer .footer__contact h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 20px 10px;
+}
+.footer .footer__contact h3:hover{
+    text-decoration: underline;
+    font-size: 2rem;
+    color: aqua;
+}
+.footer .footer__contact ul{
+    padding: 20px;
+}
+.footer .footer__contact ul li{
+    text-align: left;
+}
+.footer .footer__contact ul li p{
+    text-align: right;
+    display: inline;
+}
+.footer .footer__contact ul li a{
+    color: #fff;
+    text-transform: ;
+    font-size: 1.2rem;
+    margin-left:10px;
+    transition: 1s all ease-in-out;
+}
+.footer .footer__contact ul li a:hover{
+    color: aqua;
+    transition: 1s all ease-in-out;
+    margin-left: 100px;
+}
+
+.footer .footer__copyrigrt span{
+    text-transform: capitalize;
+}
+.footer .footer__copyrigrt a{
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/*Footer css Ends Hare*/
+
+
+/*CV css Start Hare*/
+.bg__color{
+    background-color: tomato;
+    color: #fff;
+}
+.header__cv a{
+    background-color: green;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 60px;
+    margin-left: 10px;
+    position: fixed;
+    transition: 1s all ease-in-out;
+}
+.header__cv a:hover{
+    background-color: white;
+    color: green;
+    transition: 1s all ease-in-out;
+}
+.header__cv h2{
+    text-align: center;
+    color: blue;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 20px 0px;
+
+}
+.header__cv h3{
+    text-align: center;
+    color: blue;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+.header__cv .address h4{
+    
+    text-transform: capitalize;
+    font-size: 1.2rem;
+}
+.address ul li{
+    font-size: 1.1rem;
+    text-transform: capitalize;
+}
+.profile__pic{
+    text-align: right;
+    padding: 20px;
+    margin-right:10px ;
+}
+.profile__pic img{
+    justify-content: right;
+    max-width: 30%;
+}
+.academic .academic__details{
+    border: 1px solid white;
+    min-width: 100%;
+    text-align: center;
+}
+.academic_details th,td{
+    border: 1px solid black;
+    text-transform: capitalize;
+}
+.training .training__tbl{
+    
+    border: 1px solid white;
+    min-width: 100%;
+    text-align: center;
+}
+.training .training__tbl tr, th,td{
+    border: 1px solid white;
+    text-transform: capitalize;
+    text-align: center;
+    text-transform: capitalize;
+}
+.profession .profession__tbl{
+    border: 1px solid white;
+    width: 100%;
+    
+}
+.language .language__tbl{
+    width: 100%;
+    border: 1px solid white;
+}
+.personal{
+    margin-top: 10px;
+    padding: 20px auto;
+}
+.hr{
+    width: 50%;
+    height: 5px;
+    color: #000;
+    position: absolute;
+}
+.declaration{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.declaration h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.declaration p{
+    margin-bottom: 50px;
+}
+.declaration span{
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+
+
+/*CV css Ends Hare*/
+
+
+
