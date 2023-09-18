@@ -1,0 +1,22 @@
+/**Start Header **/
+.dropdown:hover>.dropdown-menu{
+	display:block;
+}
+.heading-area{
+	position:relative;
+	top:0px;
+}
+.marquee-text{
+	color:green;
+}
+/**End Header**/
+/**Start Footer**/
+.iconpad a{
+	padding:10px 10px;
+	background:#999999;
+	font-size:18px;
+}
+.copyright{
+	background-color:#DDDDDD;
+}
+/**End Footer**/

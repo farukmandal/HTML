@@ -1,0 +1,272 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Television</title>
+		<link rel="stylesheet" href="css/owl.carousel.min.css">
+		<link rel="stylesheet" href="css/owl.theme.default.min.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/css/fontawesome-all.min.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<!--Start Heading-->
+		<div class="heading">
+			<div class="container">
+				<div class="heading-area">	
+					<nav class="navbar navbar-expand-lg navbar-light bg-light">
+						<ul class="navbar-nav mr-auto bg-light text-uppercase mt-2 mt-lg-0">
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown" style="color:black;" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><h2><i class="fas fa-bars"></i></h2></a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item" href="#">TV</a>
+									<a class="dropdown-item" href="#">MOVIES</a>
+									<a class="dropdown-item" href="#">SPORTS</a>
+									<a class="dropdown-item" href="#">NEWS</a>
+									<a class="dropdown-item" href="#">CHANNELS</a>
+									<a class="dropdown-item" href="#">LANGUAGE</a>
+									<a class="dropdown-item" href="#">GENRES</a>
+								</div>
+							</li>
+						</ul>
+						<a class="navbar-brand" href="#"><h2>VIDSTREAM</h2></a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+
+						<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+							<ul class="navbar-nav mr-auto bg-light text-uppercase mt-2 mt-lg-0">
+								<li class="nav-item">
+									<a class="nav-link" style="color:black;" href="index.html">Home </a>
+								</li>
+								<li class="nav-item dropdown active">
+									<a class="nav-link dropdown" style="color:black;" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">TV</a>
+									<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<a class="dropdown-item" href="#">BTV</a>
+										<a class="dropdown-item" href="#">DESH TV</a>
+										<a class="dropdown-item" href="#">ATN BANGLA</a>
+									</div>
+								</li>
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown" style="color:black;" href="#"  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Movies</a>
+									<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<a class="dropdown-item" style="color:black;" href="#">Tollywood Movies</a>
+										<a class="dropdown-item" style="color:black;" href="#">Bollywood</a>
+										<a class="dropdown-item" style="color:black;" href="#">Dhaliwood</a>
+									</div>
+								</li>
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown" style="color:black;" href="#"  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sports</a>
+									<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<a class="dropdown-item" style="color:black;" href="#">FootBall</a>
+										<a class="dropdown-item" style="color:black;" href="#">Cricket</a>
+										<a class="dropdown-item" style="color:black;" href="#">Voliball</a>
+									</div>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" style="color:black;" href="#">News</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" style="color:black;" href="#">
+									<!-- Button trigger modal -->
+									<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Modal">
+									SignIn
+									</button>
+
+									<!-- Modal -->
+									<div class="modal fade" id="Modal" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+										<div class="modal-dialog" role="document">
+											<div class="modal-content">
+												<div class="modal-header signin">
+													<div class="signinhead">
+														<h3 class="modal-title" id="ModalLabel">Sign In</h3>
+													</div>
+													<div class="signinor">
+														<h3> -Or- </h3>
+													</div>
+													<div class="signinfacebook">
+														<button type="submit" class="btn btn-primary" name="submit"><i class="fab fa-facebook pl-4 pr-4"></i>Sign In With Facebook</button>
+													</div>
+													<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+														<span aria-hidden="true">&times;</span>
+													</button>
+												</div>
+												<div class="modal-body">
+													<form method="" action="">
+														<div class="form-group">
+															<label for="uName1">User Name</label>
+															<input type="text" class="form-control" id="uName1" aria-describedby="name" placeholder="Enter User Name" name="uName">
+														</div>
+														<div class="form-group">
+															<label for="password1">Password</label>
+															<input type="password" class="form-control" id="password1" placeholder="Enter Password" name="pass">
+														</div>
+														<button type="submit" class="btn btn-primary" name="submit">Sign In</button>
+													</form>
+												</div>
+											</div>
+										</div>
+									</div>
+									</a>
+								</li>
+							</ul>						
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+		<!--End Heading-->
+		<marquee onmouseover="stop()" onmouseout="start()" ><h3 class="marquee-text">Wellcome To VIDSTREAM</h3> </marquee>
+		<div class="container">
+			<video controls loop>
+				<source src="videos/tv1.mp4" type="video/mp4">
+				<source src="videos/tv2.mp4" type="video/ogg">
+			</video> 
+		</div>
+		<!--Start Continue-Watching-->
+		<section class="continue-watching">
+			<div class="container">
+				<h2>Continue Watching</h2>
+				<div class="owl-carousel continue-watching-carousel owl-theme">
+					<div class="item">
+						<a href=""><img class="img-fluid" src="images/a.png" alt="" />
+						<p>PHP Bangla Tutorial-1</p>
+						<p>10-03-2018</p></a>
+					</div>
+					<div class="item">
+						<a href=""><img class="img-fluid" src="images/a.png" alt="" />
+						<p>PHP Bangla Tutorial-2</p>
+						<p>11-03-2018</p></a>
+					</div>
+					<div class="item">
+						<a href=""><img class="img-fluid" src="images/a.png" alt="" />
+						<p>PHP Bangla Tutorial-3</p>
+						<p>12-03-2018</p></a>
+					</div>
+					<div class="item">
+						<a href=""><img class="img-fluid" src="images/a.png" alt="" />
+						<p>PHP Bangla Tutorial-4</p>
+						<p>13-03-2018</p></a>
+					</div>
+					<div class="item">
+						<a href=""><img class="img-fluid" src="images/a.png" alt="" />
+						<p>PHP Bangla Tutorial-5</p>
+						<p>14-03-2018</p></a>
+					</div>
+					<div class="item">
+						<a href=""><img class="img-fluid" src="images/a.png" alt="" />
+						<p>PHP Bangla Tutorial-6</p>
+						<p>15-03-2018</p></a>
+					</div>
+					<div class="item">
+						<a href=""><img class="img-fluid" src="images/a.png" alt="" />
+						<p>PHP Bangla Tutorial-7</p>
+						<p>16-03-2018</p></a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--end Continue-Watching-->
+		<!--Start Recommended For You  -->
+		<section class="recommended-u">
+			<div class="container">
+				<h2>Recommended For You</h2>
+					<div class="owl-carousel recommended-u-carousel owl-theme">
+						<div class="item">
+							<a href=""><img class="img-fluid" src="images/re1.png" alt="" />
+							<p>Moner Kinare</p>
+							<p>Upload 22-03-2018</p></a>
+						</div>
+						<div class="item">
+							<a href=""><img class="img-fluid" src="images/nat2.png" alt="" />
+							<p>Lal Ranga Sopnoo </p>
+							<p>Upload 23-03-2018</p></a>
+						</div>
+						<div class="item">
+							<a href=""><img class="img-fluid" src="images/re2.png" alt="" />
+							<p>Vull Ja Korechi Ami</p>
+							<p>Upload 24-03-2018</p></a>
+						</div>
+						<div class="item">
+							<a href=""><img class="img-fluid" src="images/re3.png" alt="" />
+							<p>Moner Kinare</p>
+							<p>Upload 25-03-2018</p></a>
+						</div>
+						<div class="item">
+							<a href=""><img class="img-fluid" src="images/nat2.png" alt="" />
+							<p>Lal Ranga Sopnoo </p>
+							<p>Upload 23-03-2018</p></a>
+						</div>
+						<div class="item">
+							<a href=""><img class="img-fluid" src="images/re1.png" alt="" />
+							<p>Moner Kinare</p>
+							<p>Upload 22-03-2018</p></a>
+						</div>
+						<div class="item">
+							<a href=""><img class="img-fluid" src="images/re2.png" alt="" />
+							<p>Vull Ja Korechi Ami</p>
+							<p>Upload 24-03-2018</p></a>
+						</div>
+					</div>
+			</div>
+		</section>
+		<!--end Most Popular Natok-->
+		
+		<div class="embed-responsive embed-responsive-16by9">
+		  <iframe class="embed-responsive-item" src="videos/tv1.mp4" allowfullscreen></iframe>
+		</div>
+	
+	<!-- jQuery first, then Tether, then Bootstrap JS. -->
+			<script src="js/jquery.js"></script>
+			<script src="js/popper.min.js" ></script>
+			<script src="js/bootstrap.min.js"></script>
+			<script src="js/owl.carousel.min.js"></script>	
+			<script src="js/owl.carousel.js"></script>
+			
+			<script>
+			$('.continue-watching-carousel').owlCarousel({
+				loop:true,
+				margin:10,
+				dots:false,
+				responsiveClass:true,
+				responsive:{
+					0:{
+						items:1,
+						nav:true
+					},
+					600:{
+						items:1,
+						nav:false
+					},
+					1000:{
+						items:4,
+						nav:true,
+						loop:false
+					}
+				}
+			});
+			$('.recommended-u-carousel').owlCarousel({
+				loop:true,
+				margin:10,
+				dots:false,
+				responsiveClass:true,
+				responsive:{
+					0:{
+						items:1,
+						nav:true
+					},
+					600:{
+						items:1,
+						nav:false
+					},
+					1000:{
+						items:4,
+						nav:true,
+						loop:false
+					}
+				}
+			});
+		</script>
+	</body>
+</html>
